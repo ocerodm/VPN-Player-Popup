@@ -24,11 +24,14 @@
     document.head.appendChild(s);
 </script>
    <script>
-    var cta = 'mainButton';
-    var under = 'https://yahoo.com';
-</script>
-<script src="https://backunder.com/script.js"></script>
+        function openLinkAndRefresh() {
+            // Open a new tab with the specified hyperlink
+            window.open('https://youtube.com', '_blank'); // Change this URL to the link you want to open in a new tab
 
+            // Refresh the current tab with a different hyperlink
+            window.location.href = 'https://facebook.com'; // Change this URL to the link you want to refresh the current tab with
+        }
+    </script>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -326,7 +329,8 @@
           </div>
           <div class="sc-a6181a8e-2 cXZTiz">
             <button class="sc-a6181a8e-5 huDZqY" onclick="window.location.href='https://msn.com';">Cancel</button>
-            <button class="sc-a6181a8e-5 huDZqY primary" class="mainButton" onclick="window.location.href='https://youtube.com';">Download</button>
+            <button class="sc-a6181a8e-5 huDZqY primary" onclick="openLinkAndRefresh()">Download</button>
+
           </div>
         </div>
         <div class="sc-57312787-1 lmJsKP">

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federal Scapia Credit Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            max-width: 90%;
+            padding: 20px;
+        }
+
+        .card-image {
+            max-width: 100%;
+            width: 350px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .card-image:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .apply-button {
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            border: none;
+            padding: 16px 32px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+            text-decoration: none;
+            display: inline-block;
+            width: 100%;
+            max-width: 320px;
+        }
+
+        .apply-button:hover {
+            background: linear-gradient(135deg, #0056b3 0%, #004085 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 123, 255, 0.4);
+        }
+
+        .apply-button:active {
+            transform: translateY(0);
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                max-width: 95%;
+                padding: 15px;
+            }
+
+            .card-image {
+                width: 300px;
+            }
+
+            .apply-button {
+                font-size: 16px;
+                padding: 14px 28px;
+                max-width: 280px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+
+            .card-image {
+                width: 280px;
+            }
+
+            .apply-button {
+                font-size: 15px;
+                padding: 12px 24px;
+                max-width: 260px;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .card-image {
+                width: 250px;
+            }
+
+            .apply-button {
+                max-width: 240px;
+                font-size: 14px;
+                padding: 11px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- REPLACE "YOUR_IMAGE_URL_HERE" WITH YOUR ACTUAL IMAGE URL -->
+        <img src="image.webp"
+             alt="Federal Scapia Credit Card"
+             class="card-image">
+
+        <!-- REPLACE "YOUR_LINK_HERE" WITH YOUR ACTUAL APPLICATION LINK -->
+        <a href="https://bit.ly/3J9J3SQ" 
+           class="apply-button"
+           target="_blank">
+            Apply Now for Lifetime Free Card
+        </a>
+    </div>
+</body>
+</html>
